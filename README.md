@@ -8,7 +8,6 @@ This project implements a sequence-to-sequence (seq2seq) model using TensorFlow 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Overview
@@ -24,5 +23,14 @@ The main goal of this project is to demonstrate the implementation of a seq2seq 
 pip install tensorflow
 pip install keras
 ```
+## Usage
+1. Just run neural machine translation.ipynb file to get .h5 file of model.
+2. Now run nmt_app.py 
+```bash
+streamlit run nmt_app.py
+```
+## Examples
+I have shown some snaps of examples how you can apply it on some english sentences which can be shown in folder named tested sentences.
 
-
+## License
+This project is licensed under the **MIT License**.
